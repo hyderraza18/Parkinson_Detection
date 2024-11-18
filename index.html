@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkinson's Disease Audio Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Audio Classification for Parkinson's Disease Detection</h1>
+
+        <!-- Dropdown to select an audio file -->
+        <div class="dropdown-container">
+            <label for="audioDropdown">Select Audio File:</label>
+            <select id="audioDropdown">
+                <!-- Options populated dynamically -->
+            </select>
+        </div>
+
+        <!-- Classify Button -->
+        <div class="button-container">
+            <button id="classifyButton">Classify</button>
+            <button id="recordButton">Record and Classify Live Audio</button>
+        </div>
+
+        <!-- Output area for results -->
+        <div id="output" class="output-area">
+            <!-- Classification results will appear here -->
+        </div>
+    </div>
+
+    <!-- Linking to the JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
